@@ -11,8 +11,8 @@ function App() {
   if (counter < 0) {
     counter = 0
   }
-  else if (counter > 10) {
-    counter = 10
+  else if (counter > 20) {
+    counter = 20
   }
   const addValue = () => {
 
