@@ -8,6 +8,12 @@ function App() {
   let [counter,setCounter]=useState(15)
 
   //let counter = 15
+  if (counter < 0) {
+    counter = 0
+  }
+  else if (counter > 10) {
+    counter = 10
+  }
   const addValue = () => {
 
    // counter = counter + 1
